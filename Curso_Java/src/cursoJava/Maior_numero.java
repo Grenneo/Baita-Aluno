@@ -16,7 +16,7 @@ public class Maior_numero {
 	
 	
 	public static void main(String[] args) {
-		Scanner texto = new Scanner(System.in);
+	Scanner texto = new Scanner(System.in);
 		System.out.println("Agora vai!");
 	
 	//Inicio da interecao com o usuario
@@ -27,7 +27,7 @@ public class Maior_numero {
 		System.out.println("Os numeros digitados foram " + n1 + " e " + n2);
 			int r = (n1>n2)?n1:n2;
 		System.out.println("O maior numero é "+ r);
-		
+	texto.close();
 	}
 
 }
